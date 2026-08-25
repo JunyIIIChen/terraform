@@ -22,3 +22,9 @@ override.tf.json
 
 # Terraform plan output
 *.tfplan
+
+# Lambda build artifacts (zipped at plan time)
+**/.build/
+
+# Lambda build artifacts (zipped at plan time)
+**/.build/
